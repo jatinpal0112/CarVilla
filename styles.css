@@ -107,20 +107,14 @@ header>nav>ul>li>a:hover{
     }
 }
 #page2>#cardBox{
-    width: 75%;
     height: auto;
     display: grid;
     /* grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,fr); */
     grid-template-columns: repeat(auto-fit,MinMax(345px,355px));
     gap: 2rem;
-    margin: auto;
-    @media (max-width:1506px) {
-        width: 743px;
-    }
-    @media (max-width:950px) {
-        width: 355px;
-    }
+    place-content: center;
+}
 }
 #page2>#cardBox>.cards{
     width: 100%;
@@ -193,21 +187,14 @@ header>nav>ul>li>a:hover{
     color: #3030EA;
 }
 #page3>#cardBox{
-    width: 80%;
+   
     margin: auto;
     display: grid;
     /* grid-template-columns: repeat(4,1fr); */
     grid-template-columns: repeat(auto-fit,MinMax(276px,277px));
     gap: 2rem;
-    @media (max-width:1506px) {
-        width: 895px;
-    }
-    @media (max-width:1000px) {
-        width: 590px;
-    }
-    @media (max-width:700px) {
-        width: 300px;
-    }
+    place-content: center;
+    
 }
 #page3>#cardBox>.cards>#img{
     border: 1px solid #DADFE9;
@@ -278,21 +265,12 @@ header>nav>ul>li>a:hover{
     color: #3030EA;
 }
 #page4>#cardBox{
-    width: 80%;
     margin: auto;
     display: grid;
     /* grid-template-columns: repeat(4,1fr); */
     grid-template-columns: repeat(auto-fit,MinMax(276px,277px));
     gap: 2rem;
-    @media (max-width:1506px) {
-        width: 895px;
-    }
-    @media (max-width:1000px) {
-        width: 590px;
-    }
-    @media (max-width:700px) {
-        width: 300px;
-    }
+    place-content: center;
 }
 #page4>#cardBox>.cards>#img{
     border: 1px solid #DADFE9;
@@ -358,7 +336,7 @@ header>nav>ul>li>a:hover{
     }
 }
 #page5>#cardBox{
-    width: 65%;
+    width: 75%;
     display: grid;
     margin: auto;
     /* grid-template-columns: repeat(4,1fr);
@@ -366,15 +344,7 @@ header>nav>ul>li>a:hover{
     grid-template-columns: repeat(auto-fit,MinMax(195px,205px));
     grid-template-rows: repeat(auto-fit,MinMax(252px,253px));
     gap: 2rem;
-    @media (max-width:1400px) {
-        width: 691.2px;
-    }
-    @media (max-width:1131px) {
-        width: 460.8px;
-    } 
-    @media (max-width:700px) {
-        width: 230.4px;
-    } 
+    place-content: center;
 }
 #page5>#cardBox>.cards>#img{
     width: 100%;
